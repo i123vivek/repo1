@@ -1,0 +1,31 @@
+
+
+
+
+/*p{
+	color:red;
+	font-size: 22px;	
+}
+h1{
+	color:green;
+}
+body{
+	background-color: black;
+}*/
+
+.myStyle{
+	color:green;
+	font-size:22px;
+	font-weight:bold;
+}
+#myHeading{
+	color: blue;
+	font-size: 36px;
+	font-weight: bolder;
+}
+p.myStyle:hover{
+		color: khaki;
+		}
+h2:hover{
+	color:tan;
+}

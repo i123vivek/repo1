@@ -1,0 +1,50 @@
+:root{
+	font-size: 25px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: red;
+}
+.container{
+	margin: 5vw;
+}
+.container-item{
+	background-color: blue;
+}
+.container-font{
+	text-align: center;
+	padding-top: 10%;
+	color: white;
+}
+@media screen and (min-width: 768px){
+	.container-item{
+		height: 30vw;
+	}
+	.container-font{
+		font-size: 2rem;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.container-item{
+		height: 60vw;
+		background-color: grey;
+	}
+	.container-font{
+		font-size: 1.5rem;
+		color: black;
+	}
+}
+@media screen and (max-width: 400px){
+	.container-item{
+		height: 120vw;
+		background-color: yellow;
+	}
+	.container-font{
+		font-size: 1rem;
+		color: green;
+	}
+}
+
+
+

@@ -1,0 +1,107 @@
+.my-container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: black;
+	padding: 10px 10px 10px;
+}
+.container-item{
+	height: 300px;
+}
+.myFont{
+	font-size: 50px;
+	color: white;
+}
+.blue{
+	background-color: blue;
+}
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+}
+.purple{
+	background-color: purple;
+}
+
+/* use media query to change the layout */
+
+@media screen and (min-width: 768px){
+	.blue{
+		width: 50%;
+	}
+	.red{
+		width: 50%;
+	}
+	.green{
+		width: 50%;
+	}
+	.purple{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.blue{
+		width: 50%;
+	}
+	.red{
+		width: 50%;
+	}
+	.green{
+		width: 100%;
+	}
+	.purple{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 480px){
+	.blue{
+		width: 100%;
+	}
+	.red{
+		width: 100%;
+	}
+	.green{
+		width: 100%;
+	}
+	.purple{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

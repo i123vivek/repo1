@@ -1,0 +1,21 @@
+:root{
+	font-size: 10px;
+}
+
+.parent{
+	background-color: tomato;
+	width: 70vw;
+	height: 50vh;
+	font-size: 2rem;
+}
+.child{
+	background-color: khaki;
+	width: 10vw;
+	height: 10vh;
+	font-size: 2rem;
+}
+.second-child{
+	background-color: lime;
+	height: 3vmax;
+	width: 10vmax;
+}
