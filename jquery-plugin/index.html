@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
+	<title>Flexslider</title>
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="jquery.flexslider.js"></script>
+
+
+	<script type="text/javascript" charset="utf-8">
+  		$(window).load(function() {
+    		$('.flexslider').flexslider({
+    			animation: "slide",
+    			controlNav: "thumbnails"
+    		});
+  		});
+	</script>
+</head>
+<body>
+	<div class="navbar">
+		<p> Come On!</p>
+	</div>
+
+	<div class="flexslider">
+	  <ul class="slides">
+	    <li data-thumb="pic1.jpg">
+	      <img src="pic1.jpg" />
+	    </li>
+	    <li data-thumb="pic2.jpg">
+	      <img src="pic2.jpg" />
+	    </li>
+	    <li data-thumb="pic3.jpg">
+	      <img src="pic3.jpg" />
+	    </li>
+	    <li data-thumb="pic4.jpg">
+	      <img src="pic4.jpg" />
+	    </li>
+	  </ul>
+	</div>
+
+</body>
+</html>
